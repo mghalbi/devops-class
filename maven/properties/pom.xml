@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.sorint</groupId>
-    <artifactId>repo</artifactId>
+    <artifactId>properties</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -13,42 +13,46 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>2.9.1</version>
+            <version>${gson.version}</version>
 <!--            <scope>complie</scope>-->
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
-        </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/javax/javaee-web-api -->
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>8.0.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.30</version>
-            <scope>runtime</scope>
-        </dependency>
-
-
     </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <gson.version>2.9.1</gson.version>
     </properties>
+
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>
+                    true
+                </activeByDefault>
+            </activation>
+            <id>dev</id>
+            <properties>
+                <server>localhost</server>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <server>8.8.8.8</server>
+            </properties>
+        </profile>
+    </profiles>
 
 </project>
