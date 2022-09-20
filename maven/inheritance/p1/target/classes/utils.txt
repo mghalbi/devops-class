@@ -1,2 +1,0 @@
-This project is called properties and it's the version 1.0-SNAPSHOT
-was compiled on Linux 5.15.0-47-generic using java 11.0.16

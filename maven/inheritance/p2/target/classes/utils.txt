@@ -1,2 +1,0 @@
-This project is called ${project.name} and it's the version ${project.version}
-was compiled on ${os.name} ${os.version} using java ${java.version}
