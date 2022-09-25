@@ -1,11 +1,7 @@
 # User-specific stuff
-maven/inheritance/.idea/compiler.xml
+**/.idea/compiler.xml
 **/.idea/workspace.xml
-**/.idea/**/tasks.xml
-**/.idea/**/usage.statistics.xml
-**/.idea/**/dictionaries
-**/.idea/**/shelf
-
+**/.idea/vcs.xml
 ### Terraform ###
 # Local .terraform directories
 **/.terraform/*
@@ -13,3 +9,6 @@ maven/inheritance/.idea/compiler.xml
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# Vagrant
+**/.vagrant/

@@ -27,7 +27,7 @@
 - Deploy a Configurable Web Server
 - Deploy Cluster of Web Servers
 - Deploy a Load Balancer
-- Create a VPC 
+- Create a VPC
 - Deploy a subnet in VPC with security groups/firewall rules
 - Cleaning Up
 

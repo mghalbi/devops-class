@@ -1,0 +1,8 @@
+---
+# Uncomment the provisioner you would like to use. For Vagrant provisioning,
+# simply use `vagrant up` instead of this playbook.
+
+- import_playbook: provisioners/digitalocean.yml
+
+# Configure provisioned servers.
+- import_playbook: configure.yml

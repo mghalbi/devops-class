@@ -1,6 +1,6 @@
 
 Vagrant.configure("2") do |config|
-    config.vm.box = "centos/7"
+    config.vm.box = "mghalbi/docker-centos9-ansible"
   
     # Provisioning configuration for Ansible.
     config.vm.provision "ansible" do |ansible|
