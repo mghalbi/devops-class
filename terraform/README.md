@@ -10,9 +10,7 @@
 
 - [Terraform providers](https://github.com/mghalbi/devops-class/tree/main/terraform/providers/README.md)
 - [Terraform resources](https://github.com/mghalbi/devops-class/tree/main/terraform/resources/README.md)
-- [Variable Resources](https://github.com/mghalbi/devops-class/tree/main/terraform/resources/variables/README.md)
 - [Output Resources](https://github.com/mghalbi/devops-class/tree/main/terraform/resources/output/README.md)
-- [Init-plan-apply !](https://github.com/mghalbi/devops-class/tree/main/terraform/init-plan-apply/README.md)
 
 ## Setting up Cloud Account
 
