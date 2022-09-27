@@ -2,9 +2,9 @@
 
 ## Installing Terraform
 
-- [MacOS](https://github.com/collabnix/terraform/blob/master/beginners/os/mac/README.md)
-- [Linux](https://github.com/collabnix/terraform/tree/master/beginners/os/linux)
-- [Windows](https://github.com/collabnix/terraform/tree/master/beginners/os/windows)
+- [MacOS](https://github.com/mghalbi/devops-class/tree/main/terraform/os/mac/README.md)
+- [Linux](https://github.com/mghalbi/devops-class/tree/main/terraform/os/linux)
+- [Windows](https://github.com/mghalbi/devops-class/tree/main/terraform/os/windows)
 
 ## From Terraform INIT To APPLY
 
