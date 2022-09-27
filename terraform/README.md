@@ -8,9 +8,8 @@
 
 ## From Terraform INIT To APPLY
 
-- [Terraform providers](https://github.com/mghalbi/devops-class/tree/main/terraform/providers/README.md)
-- [Terraform resources](https://github.com/mghalbi/devops-class/tree/main/terraform/resources/README.md)
-- [Output Resources](https://github.com/mghalbi/devops-class/tree/main/terraform/resources/output/README.md)
+- [Terraform providers](https://github.com/mghalbi/devops-class/tree/main/terraform/providers/Terraform_Providers.md)
+- [Terraform resources](https://github.com/mghalbi/devops-class/tree/main/terraform/resources/Terraform_Resources.md)
 
 ## Setting up Cloud Account
 
